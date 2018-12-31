@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/biagiopietro/OracleLaravelOnUbuntu16.svg)](https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/LICENSE)
 ---
 
-<h1 align="center">How to enable oci8 in Laravel</h1>
+<h1 align="center">How to install Oracle DB</h1>
 <p align="center">
 <sup>
 <b>This guide is for only x64 system. (Tested on Ubuntu 16.04) </b>
