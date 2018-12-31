@@ -1,7 +1,7 @@
-[![HitCount](http://hits.dwyl.io/biagiopietro/LicenseDialog.svg)](http://hits.dwyl.io/biagiopietro/LicenseDialog)
-[![GitHub forks](https://img.shields.io/github/forks/biagiopietro/LicenseDialog.svg)](https://github.com/biagiopietro/LicenseDialog/network)
-[![GitHub issues](https://img.shields.io/github/issues/biagiopietro/LicenseDialog.svg)](https://github.com/biagiopietro/LicenseDialog/issues)
-[![GitHub license](https://img.shields.io/github/license/biagiopietro/LicenseDialog.svg)](https://github.com/biagiopietro/LicenseDialog/blob/master/LICENSE)
+[![HitCount](http://hits.dwyl.io/biagiopietro/OracleLaravelOnUbuntu16.svg)](http://hits.dwyl.io/biagiopietro/OracleLaravelOnUbuntu16)
+[![GitHub forks](https://img.shields.io/github/forks/biagiopietro/OracleLaravelOnUbuntu16.svg)](https://github.com/biagiopietro/OracleLaravelOnUbuntu16/network)
+[![GitHub issues](https://img.shields.io/github/issues/biagiopietro/OracleLaravelOnUbuntu16.svg)](https://github.com/biagiopietro/OracleLaravelOnUbuntu16/issues)
+[![GitHub license](https://img.shields.io/github/license/biagiopietro/OracleLaravelOnUbuntu16.svg)](https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/LICENSE)
 ---
 
 <h1 align="center">How to enable oci8 in Laravel</h1>
