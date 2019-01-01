@@ -1,0 +1,61 @@
+		.___  ___.   ______           _______.  ______    _______ .___________.
+		|   \/   |  /      |         /       | /  __  \  |   ____||           |
+		|  \  /  | |  ,----' ______ |   (----`|  |  |  | |  |__   `---|  |----`
+		|  |\/|  | |  |     |______| \   \    |  |  |  | |   __|      |  |     
+		|  |  |  | |  `----.     .----)   |   |  `--'  | |  |         |  |     
+		|__|  |__|  \______|     |_______/     \______/  |__|         |__|  
+		
+********** Remember that in ORACLE the TABLE'S FIELDS can be only 30 CHARACTERS (**IMPORTANT) **********
+
+********************* .env file (piece of code) *********************
+DB_CONNECTION=oracle
+DB_HOST=127.0.0.1
+DB_PORT=1521
+DB_DATABASE=oracle
+DB_USERNAME=<username>
+DB_PASSWORD=<password>
+
+********************* config/database.php (piece of code) *********************
+'connections' => [
+
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            'prefix' => '',
+        ],
+
+        'mysql' => [
+            'driver' => 'mysql',
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ],
+    	'oracle' => [
+    	    'driver'        => 'oracle',
+    	    'tns' => '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)) (CONNECT_DATA=(SERVICE_NAME=xe)))',
+    	    'host'          => env('DB_HOST', '127.0.0.1'),
+    	    'port'          => env('DB_PORT', '1521'),
+    	    'database'      => env('DB_DATABASE', ''),
+    	    'username'      => env('DB_USERNAME', ''),
+    	    'password'      => env('DB_PASSWORD', ''),
+    	    'charset'       => env('DB_CHARSET', 'AL32UTF8'),
+    	    'prefix'        => env('DB_PREFIX', ''),
+    	    'prefix_schema' => env('DB_SCHEMA_PREFIX', ''),
+    	],
+    	
+********************* config/auth.php *********************
+'providers' => [
+        'utente' => [
+            'driver' => 'oracle',
+            'model' => App\Models\Utente::class,
+        ],
+    ],
+

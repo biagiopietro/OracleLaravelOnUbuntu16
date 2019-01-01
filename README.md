@@ -16,6 +16,7 @@
 * <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/InstallOracleDB.md">How to install Oracle DB</a>
 * <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/EnableOCI8OnLaravel.md">How to enable oci8 on Laravel</a>
 * <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/InstallOracleSQLDeveloper.md">How to install and configure Oracle SQL Developer</a>
-* How to connect Oracle SQL Developer with Laravel 5.* ```Coming Soon```
+* <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/ConnectOracleSQLDeveloperWithLaravel.md">How to connect Oracle SQL Developer with Laravel 5.*</a>
+
 ## Special Thanks
 Special thanks to <a href="https://github.com/puffoCyano">PuffoCyano</a> for his help and <a href="https://stackoverflow.com/">StackOverflow</a> for replies.
