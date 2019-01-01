@@ -22,5 +22,8 @@
 While running the commands if you see a message like ```Permission denied``` please run the command in ```sudo``` mode.
 If you see the same message running the command as sudo please log with ```su``` and run again the command.
 
+## It might be useful
+* <a href="https://www.oracle.com/technetwork/apps-tech/jdbc-112010-090769.html">ojdbc6.jar</a>
+
 ## Special Thanks
 Special thanks to <a href="https://github.com/puffoCyano">PuffoCyano</a> for his help and <a href="https://stackoverflow.com/">StackOverflow</a> for replies.
