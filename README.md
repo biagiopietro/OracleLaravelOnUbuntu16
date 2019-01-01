@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/biagiopietro/OracleLaravelOnUbuntu16.svg)](https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/LICENSE)
 ---
 
-<h1 align="center">Oci8, Oracle DB, Oracle SQL Develope, Laravel</h1>
+<h1 align="center">Oci8, Oracle DB, Oracle SQL Developer, Laravel</h1>
 <p align="center">
 <sup>
 <b>This guides are for only x64 systems. (Tested on Ubuntu 16.04) </b>
