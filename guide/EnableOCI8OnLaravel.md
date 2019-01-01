@@ -4,18 +4,23 @@
 [![GitHub license](https://img.shields.io/github/license/biagiopietro/OracleLaravelOnUbuntu16.svg)](https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/LICENSE)
 ---
 
-<h1 align="center">Oci8, Oracle DB, Oracle SQL Develope, Laravel</h1>
+<h1 align="center">How to enable oci8 on Laravel</h1>
 <p align="center">
 <sup>
-<b>This guides are for only x64 systems. (Tested on Ubuntu 16.04) </b>
+<b>This guide is for only x64 system. (Tested on Ubuntu 16.04) </b>
 </sup>
 </p>
 
-## Guides			
-* <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/InstallOCI8.md">How to install oci8</a>
-* <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/InstallOracleDB.md">How to install Oracle DB</a>
-* <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/EnableOCI8OnLaravel.md">How to enable oci8 on Laravel</a>
-* <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/InstallOracleSQLDeveloper.md">How to install and configure Oracle SQL Developer</a>
-* How to connect Oracle SQL Developer with Laravel 5.* ```Coming Soon```
+
+
+## Steps
+
+1) Move in the project folder where you have the composer and run: 
+    ```
+    composer require yajra/laravel-oci8:"5.5.*"
+    ```
+	### Note
+	If the previous command return errors please you have to install the packages suggested by the console.			
+
 ## Special Thanks
 Special thanks to <a href="https://github.com/puffoCyano">PuffoCyano</a> for his help and <a href="https://stackoverflow.com/">StackOverflow</a> for replies.
