@@ -18,5 +18,9 @@
 * <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/InstallOracleSQLDeveloper.md">How to install and configure Oracle SQL Developer</a>
 * <a href="https://github.com/biagiopietro/OracleLaravelOnUbuntu16/blob/master/guide/ConnectOracleSQLDeveloperWithLaravel.md">How to connect Oracle SQL Developer with Laravel 5.*</a>
 
+## Important
+While running the commands if you see a message like ```Permission denied``` please run the command in ```sudo``` mode.
+If you see the same message running the command as sudo please log with ```su``` and run again the command.
+
 ## Special Thanks
 Special thanks to <a href="https://github.com/puffoCyano">PuffoCyano</a> for his help and <a href="https://stackoverflow.com/">StackOverflow</a> for replies.
