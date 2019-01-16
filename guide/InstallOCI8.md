@@ -22,16 +22,16 @@
     ```
     mkdir /opt/oracle
     ```
-2) Move "instantclient-basic-linux.x64-12.1.0.2.0.zip" and "instantclient-sdk-linux.x64-12.1.0.2.0.zip" into /opt/oracle
+2) Move ```instantclient-basic-linux.x64-12.1.0.2.0.zip``` and ```instantclient-sdk-linux.x64-12.1.0.2.0.zip``` into /opt/oracle
 3) Move into oracle directory
     ```
     cd /opt/oracle
     ```
-4) Unzip "instantclient-basic-linux.x64-12.1.0.2.0.zip" file
+4) Unzip ```instantclient-basic-linux.x64-12.1.0.2.0.zip``` file
     ```
     unzip /opt/oracle/instantclient-basic-linux.x64-12.1.0.2.0.zip
     ```
-5) Unzip "instantclient-basic-linux.x64-12.1.0.2.0.zip" file
+5) Unzip ```instantclient-sdk-linux.x64-12.1.0.2.0.zip``` file
     ```
     unzip /opt/oracle/instantclient-sdk-linux.x64-12.1.0.2.0.zip
     ``` 
@@ -43,7 +43,7 @@
     ```
     ln -s /opt/oracle/instantclient_12_2/libocci.so.12.1 /opt/oracle/instantclient_12_2/libocci.so
     ```
-8) Copy this line "/opt/oracle/instantclient_12_2" into oracle-instantclient
+8) Copy this line ```/opt/oracle/instantclient_12_2``` into ```oracle-instantclient```
     ```
     echo /opt/oracle/instantclient_12_2 > /etc/ld.so.conf.d/oracle-instantclient
     ```
@@ -63,15 +63,15 @@
     ```
     instantclient,/opt/oracle/instantclient_12_2
     ```
-13) Install php7.2-fpm
+13) Install ```php7.2-fpm```
     ```
     apt-get install php7.2-fpm
     ```
-14) Copy in append this line "extension = oci8.so" into /etc/php/7.2/fpm/php.ini
+14) Copy in append this line ```extension = oci8.so``` into ```/etc/php/7.2/fpm/php.ini```
     ```
     echo "extension = oci8.so" >> /etc/php/7.2/fpm/php.ini
     ```
-15) Copy in append this line "extension = oci8.so" into /etc/php/7.2/cli/php.ini
+15) Copy in append this line ```extension = oci8.so``` into ```/etc/php/7.2/cli/php.ini```
     ```
     echo "extension = oci8.so" >> /etc/php/7.2/cli/php.ini
     ```
@@ -79,14 +79,14 @@
     ```
     php -m | grep 'oci8'
     ```
-    and if you see "oci8", its works!
-17) Restart php7.1-fpm service
+    and if you see ```oci8```, its works!
+17) Restart ```php7.1-fpm``` service
     ```
     service php7.1-fpm restart
     ```
 
 ### Note
-* If you see warnings or errors please remove php*-xml and install it again, so:
+* If you see warnings or errors please remove ```php*-xml``` and install it again, so:
    ```
     apt-get purge php*-xml 
     apt-get autoremove php*-xml
